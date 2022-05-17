@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #000000;
+  --white: #fff;
+  --grey: ;
+  --blue: #3239c0;
+}
+
+html {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--black);
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  border-bottom: 1px solid var(--white);
+}
+
+header nav ul {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+header nav ul .li_header {
+  padding: 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 17.5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header nav ul li a:hover {
+  color: var(--blue);
+}
+
+header .txt_logo {
+  display: flex;
+}
+
+header .txt_logo p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+header .txt_logo:hover {
+  color: var(--white);
+}
