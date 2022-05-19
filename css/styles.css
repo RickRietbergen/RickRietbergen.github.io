@@ -4,10 +4,12 @@
 }
 
 :root {
-  --black: #000000;
+  --main: #162447;
+  --blue: #002158;
+  --darkblue: #002759;
   --white: #fff;
-  --grey: ;
-  --blue: #3239c0;
+  --black: #000000;
+  --lightblue: #3239c0;
 }
 
 html {
@@ -22,7 +24,8 @@ body {
 header {
   width: 100%;
   height: 65px;
-  border-bottom: 1px solid var(--white);
+  position: fixed;
+  /* border-bottom: 1px solid var(--white); */
 }
 
 header nav ul {
@@ -40,7 +43,6 @@ header nav ul li a {
   text-decoration: none;
   color: var(--white);
   font-size: 17.5px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 header nav ul li a:hover {
@@ -58,12 +60,79 @@ header .txt_logo p {
 
 header .txt_logo:hover {
   color: var(--white);
+  cursor: pointer;
 }
 
+/*background animation*/
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, var(--main) 50%, var(--darkblue) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.container_start {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_start .title {
+  width: 500px;
+  height: 200px;
+  font-size: 40px;
+  text-align: center;
+  color: var(--white);
+}
+
+/*project*/
+.container_project {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  background-color: var(--main);
+}
+
+.container_project .project {
+  width: 350px;
+  height: 400px;
+  background-color: var(--lightblue);
+  /* margin-top: -100px; */
+}
+
+
+
+/*about*/
 .container_about {
   width: 100%;
   height: 400px;
-  background-color: var(--blue);
+  background-color: var(--darkblue);
 }
 
 .container_about .title {
@@ -71,7 +140,6 @@ header .txt_logo:hover {
   height: 50px;
   font-size: 30px;
   text-align: center;
-  margin-top: 50px;
   color: var(--white);
   /* background-color: azure; */
 }

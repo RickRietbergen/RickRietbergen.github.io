@@ -3,7 +3,7 @@
     <ul>
       <li>
         <a href="#" class="txt_logo">
-          <p>TRAVELEGY</p>
+          <p>Rickyboy026</p>
         </a>
       </li>
       <li class="links">

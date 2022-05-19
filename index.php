@@ -15,6 +15,21 @@
     ?>
 <body>
     <main>
+        <div class="container_start">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="title">
+                <h2>Rickyboy026</h2>
+                <p>Rick Rietbergen</p>
+                <p>Developer && student</p>
+            </div>
+        </div>
+        <div class="container_project">
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+        </div>
         <div class="container_about">
             <div class="title">
                 <h2>About Me</h2>
