@@ -15,7 +15,7 @@
     ?>
 <body>
     <main>
-        <div class="container_start">
+        <div class="container_start" id="index">
             <div class="bg"></div>
             <div class="bg bg2"></div>
             <div class="bg bg3"></div>
@@ -25,12 +25,106 @@
                 <p>Developer && student</p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+
+        <div class="container_project" id="projects">
+            <div class="top">
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="down">
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="placeholder">
+                    <div class="all_links">
+                        <div class="but_github">
+                            <a href="https://google.nl" class="but_github">
+                                view on github
+                            </a>
+                        </div>
+                        <div class="but_view">
+                            <a href="https://google.nl" class="but_view">
+                                view project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container_about">
+
+        <div class="container_about" id="about">
             <div class="title">
                 <h2>About Me</h2>
             </div>
