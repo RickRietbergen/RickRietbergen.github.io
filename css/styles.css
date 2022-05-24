@@ -64,6 +64,11 @@ header .txt_logo:hover {
   cursor: pointer;
 }
 
+footer {
+  width: 100%;
+  height: 100px;
+}
+
 /*background animation*/
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
