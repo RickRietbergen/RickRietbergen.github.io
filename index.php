@@ -129,13 +129,17 @@
                 <h2>About Me</h2>
             </div>
             <div class="info">
-                <p>
-                    Hi, My name is Rick Rietbergen,
-                    <br>
-                    I am a first year student at ROC Nijmegen and am currently accelerating my education.
-                    <br>
-                    test
+                <div class="image">
+                    <img src="assets/afbeeldingen/me.png" alt="picture about">
+                </div>
+                <div class="txt">
+                    <h1 class="title_about">Rick Rietbergen</h1>
+                    <p>
+                    My name is Rick Rietbergen and I'm currently living in the Netherlands.
+                    I am a first year student at ROC Nijmegen and am currently accelerating my education as a software developer.
+                    My hobbies are fitness and coding.
                 </p>
+                </div>
             </div>
         </div>
     </main>
