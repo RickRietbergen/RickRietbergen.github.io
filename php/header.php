@@ -18,7 +18,7 @@
             <a href="#about">About</a>
           </li>
           <li class="li_header">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </li>
