@@ -129,6 +129,26 @@
                 <h2>About Me</h2>
             </div>
             <div class="info">
+                <div class="image">
+                    <img src="assets/afbeeldingen/placeholder.png" alt="picture about">
+                </div>
+                <div class="txt">
+                    <p>
+                    Hi, My name is Rick Rietbergen,
+                    <br>
+                    I am a first year student at ROC Nijmegen and am currently accelerating my education.
+                    <br>
+                    test
+                </p>
+                </div>
+            </div>
+
+
+
+
+
+            
+            <!-- <div class="info">
                 <p>
                     Hi, My name is Rick Rietbergen,
                     <br>
@@ -136,7 +156,7 @@
                     <br>
                     test
                 </p>
-            </div>
+            </div> -->
         </div>
     </main>
 </body>
