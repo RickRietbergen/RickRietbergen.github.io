@@ -192,6 +192,7 @@ header .txt_logo:hover {
   width: 100%;
   height: 100vh;
   background-color: var(--darkblue);
+  border-bottom: 2px solid #3239c0;
 }
 
 .container_about .title {
@@ -235,11 +236,90 @@ header .txt_logo:hover {
   padding-bottom: 20px;
 }
 
-/* .container_about .info {
+.container_contact {
   width: 100%;
-  height: 200px;
-  margin-top: 50px;
-  color: var(--white);
+  height: 98vh;
+  background-color: var(--main);
+  border-bottom: 2px solid #3239c0;
+}
+
+.container_contact .title {
+  width: 100%;
+  height: 75px;
+  padding-top: 75px;
+  font-size: 50px;
   text-align: center;
-  /* background-color: var(--black); 
-} */
+  color: var(--white);
+}
+
+.container_contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.container_contact form #label__fullname {
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 10px;
+}
+
+.container_contact form #input__fullname {
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.container_contact form #label__email {
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 15px;
+}
+
+.container_contact form #input__email {
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.container_contact form #label__discription {
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 39.25%;
+	margin-bottom: 15px;
+}
+
+.container_contact form #input__discription {
+	width: 60%;
+	padding: 15px;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	margin-bottom: 15px;
+	resize: none;
+	border-radius: 5px;
+}
+
+.container_contact form #click__submit {
+	width: 5%;
+	background-color: #29292d;
+	border-style: none;
+	color: #fff;
+	padding: 15px;
+	margin-right: 56%;
+	border-radius: 5px;
+}
