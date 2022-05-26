@@ -10,9 +10,35 @@
     <!-- tab logo page -->
     <!-- google fonts -->
 </head>
-    <?php
-        include_once "php/header.php";
-    ?>
+
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="#index" class="txt_logo">
+          <p>Rickyboy026</p>
+        </a>
+      </li>
+      <li class="links">
+        <ul>
+          <li id="txt_header" class="li_header">
+            <a href="#index">Home</a>
+          </li>
+          <li class="li_header">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="li_header">
+            <a href="#about">About</a>
+          </li>
+          <li class="li_header">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
 <body>
     <main>
         <div class="container_start" id="index">
@@ -180,10 +206,47 @@
                 <input id="click__submit" type="submit" value="submit" />
             </form>
         </div>
-        
-        <?php
-            include_once "php/footer.php";
-        ?>
     </main>
 </body>
+
+<footer>
+    <div class="footer">
+        <div class="icons">
+            <div class="icon">
+                <a href="index.php">
+                    <img src="assets/afbeeldingen/twitter.png" alt="twitter logo">
+                </a>
+            </div>
+
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/rick-rietbergen-096831225/">
+                    <img src="assets/afbeeldingen/linkedin.png" alt="linkedIn logo">
+                </a>
+            </div>
+
+            <div class="icon">
+                <a href="https://github.com/rickrietbergen">
+                    <img src="assets/afbeeldingen/github.png" alt="github logo">
+                </a>
+            </div>
+
+            <div class="icon">
+                <a href="index.php">
+                    <img src="assets/afbeeldingen/instagram.png" alt="instagram logo">
+                </a>
+            </div>
+
+            <div class="icon" id="icon_end">
+                <a href="mailto:1197044@roc-nijmegen.nl">
+                    <img src="assets/afbeeldingen/gmail.png" alt="gmail logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_info">
+            <p>© copyright 2022</p>
+        </div>
+    </div>
+</footer>
+
 </html>
