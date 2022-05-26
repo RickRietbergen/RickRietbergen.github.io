@@ -136,7 +136,7 @@
                     <h1 class="title_about">Rick Rietbergen</h1>
                     <p>
                     My name is Rick Rietbergen and I'm currently living in the Netherlands.
-                    I am a first year student at ROC Nijmegen and am currently accelerating my education as a software developer.
+                    I am a first year student at ROC Nijmegen and I am currently accelerating my education as a software developer.
                     My hobbies are fitness and coding.
                 </p>
                 </div>
@@ -180,6 +180,10 @@
                 <input id="click__submit" type="submit" value="submit" />
             </form>
         </div>
+        
+        <?php
+            include_once "php/footer.php";
+        ?>
     </main>
 </body>
 </html>
