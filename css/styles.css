@@ -6,6 +6,7 @@
 
 :root {
   --main: #162447;
+  --niceblue: #1f4068;
   --blue: #002158;
   --darkblue: #002759;
   --white: #fff;
@@ -114,7 +115,7 @@ footer .icon img {
 /*background animation*/
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, var(--main) 50%, var(--darkblue) 50%);
+  background-image: linear-gradient(-60deg, var(--main) 50%, #0049cc 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -383,4 +384,9 @@ footer .icon img {
 	padding: 15px;
 	margin-right: 56.5%;
 	border-radius: 5px;
+}
+
+/*responsive*/
+@media screen and (max-width: 414px) {
+
 }
