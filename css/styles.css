@@ -7,6 +7,7 @@
 :root {
   --main: #162447;
   --niceblue: #1f4068;
+  --magicblue: #0049cc;
   --blue: #002158;
   --darkblue: #002759;
   --white: #fff;
@@ -115,7 +116,7 @@ footer .icon img {
 /*background animation*/
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, var(--main) 50%, #0049cc 50%);
+  background-image: linear-gradient(-60deg, var(--main) 50%, var(--magicblue) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -175,6 +176,7 @@ footer .icon img {
   justify-content: space-around;
   width: 100%;
   height: 50%;
+  margin-top: 50px;
 }
 
 .container_project .down {
@@ -182,67 +184,114 @@ footer .icon img {
   justify-content: space-around;
   width: 100%;
   height: 50%;
-  margin-top: -30px;
 }
 
 .container_project .project {
-  width: 330px;
-  height: 425px;
+  width: 300px;
+  height: 250px;
   margin-top: 75px;
-  /* background-color: #002759; */
+  color: var(--white);
+  background-color: black;
+  border-radius: 5px;
 }
 
-.container_project .project img {
-  width: 300px;
-  height: 300px;
-  border: 3px solid var(--lightblue);
-  border-radius: 5px;
+.container_project .project .title_pro {
+  font-weight: bold;
+  font-size: 22.5px;
+  text-align: center;
+  padding: 15px;
+}
+
+.container_project .project .language {
+  font-size: 17.5px;
+  margin-left: 15px;
+}
+
+.container_project .project .discription {
+  font-size: 17.5px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .container_project .project .all_links {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  margin-right: 25px;
-}
-
-.container_project .project .all_links .but_github {
-  background-color: var(--white);
-  color: var(--black);
-  border: 1px solid var(--black);
-  border-radius: 5px;
-  transition-duration: 0.6s;
+  margin-right: 0px;
 }
 
 .container_project .project .all_links .but_view {
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  color: var(--white);
+  padding: 8.5px;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+}
+
+.container_project .project .all_links .but_view a {
+  border: none;
+}
+
+.container_project .project .all_links .but_view:hover {
   background-color: var(--white);
   color: var(--black);
-  border: 1px solid var(--black);
-  border-radius: 5px;
-  transition-duration: 0.6s;
 }
+
+.container_project .project .all_links .but_view img {
+  /* background: url('assets/afbeeldingen/robot-white.png'); */
+  width: 30px;
+  height: 20px;
+  border: none;
+  margin-right: 5px;
+  padding: 2.5px;
+}
+
+.container_project .project .all_links .but_github {
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  color: var(--white);
+  padding: 8.5px;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+}
+
+.container_project .project .all_links .but_github img {
+  /* background: url('assets/afbeeldingen/robot-white.png'); */
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-right: 5px;
+  padding: 2.5px;
+}
+
+/* .container_project .project .all_links .but_github .img_robot:hover {
+  background: url('assets/afbeeldingen/robot-black.png');
+} */
 
 .container_project .project a {
   padding: 10px 7px;
   text-decoration: none;
 }
 
-.container_project .project .but_github:hover{
-  background-color: var(--blue);
-  color: var(--white);
+.container_project .project a:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
 
-.container_project .project .but_view:hover{
-  background-color: var(--lightblue);
-  color: var(--white);
+.container_project .project .but_github:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
 
 /*about*/
 .container_about {
   width: 100%;
   height: 100vh;
-  background-color: var(--main);
-  border-bottom: 2px solid #3239c0;
+  background-color: var(--magicblue);
+  border-bottom: 2px solid var(--ligtblue);
 }
 
 .container_about .title {
@@ -310,10 +359,9 @@ footer .icon img {
 }
 
 .container_contact form #label__fullname {
-	width: 100%;
 	height: 30px;
 	font-size: 20px;
-	margin-left: 39.25%;
+	margin-left: -1030px;
 	margin-bottom: 10px;
   color: var(--white);
 }
@@ -332,10 +380,9 @@ footer .icon img {
 }
 
 .container_contact form #label__email {
-	width: 100%;
 	height: 30px;
 	font-size: 20px;
-	margin-left: 39.25%;
+	margin-left: -1075px;
 	margin-bottom: 15px;
   color: var(--white);
 }
@@ -354,10 +401,9 @@ footer .icon img {
 }
 
 .container_contact form #label__discription {
-	width: 100%;
 	height: 30px;
 	font-size: 20px;
-	margin-left: 39.25%;
+	margin-left: -975px;
 	margin-bottom: 15px;
   color: var(--white);
 }
@@ -388,5 +434,89 @@ footer .icon img {
 
 /*responsive*/
 @media screen and (max-width: 414px) {
+  .container_start .title {
+    font-size: 35px;
+  }
 
+  .container_project {
+    height: 200vh;
+  }
+
+  .container_project .top {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .container_project .down {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_project .project {
+    margin-top: 0px;
+  }
+
+  .container_about {
+    height: 85vh;
+  }
+
+  .container_about .title {
+    padding-top: 50px;
+    font-size: 45px;
+  }
+
+  .container_about .info {
+    flex-direction: column;
+  }
+
+  .container_about .image img {
+    width: 325px;
+    height: 325px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .container_about .info .txt {
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+  }
+
+  .container_about .info .title_about {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+
+
+  .container_contact {
+    height: 90vh;
+  }
+
+  .container_contact .title {
+    padding-top: 50px;
+    font-size: 45px;
+  }
+
+  .container_contact form {
+    margin-top: 30px;
+  }
+
+  .container_contact form #label__fullname {
+    margin-left: -140px;
+  }
+
+  .container_contact form #label__email {
+    margin-left: -185px;
+  }
+
+  .container_contact form #label__discription {
+    margin-left: -80px;
+  }
+
+  .container_contact form #click__submit {
+    width: 50%;
+    margin-right: 0%;
+  }
 }
