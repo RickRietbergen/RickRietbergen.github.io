@@ -1,2 +1,2 @@
 # Portfolio
- my own portfoio
+ my own portfolio
