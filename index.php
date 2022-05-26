@@ -155,7 +155,7 @@
                     type="text"
                     name="fullname"
                     maxlength=""
-                    placeholder="First Name"
+                    placeholder="First Name..."
                     required
                 />
 
@@ -165,7 +165,7 @@
                     type="text"
                     name="email"
                     maxlength=""
-                    placeholder="Example@gmail.com"
+                    placeholder="Example@gmail.com..."
                     required
                 />
 
