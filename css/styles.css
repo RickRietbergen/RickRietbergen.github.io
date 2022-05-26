@@ -11,6 +11,7 @@
   --white: #fff;
   --black: #000000;
   --lightblue: #3239c0;
+  --specialblue: #34495e;
 }
 
 html {
@@ -118,7 +119,7 @@ header .txt_logo:hover {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: var(--main);
+  background-color: var(--darkblue);
   border-bottom: 2px solid #3239c0;
 }
 
@@ -191,7 +192,7 @@ header .txt_logo:hover {
 .container_about {
   width: 100%;
   height: 100vh;
-  background-color: var(--darkblue);
+  background-color: var(--main);
   border-bottom: 2px solid #3239c0;
 }
 
@@ -239,7 +240,7 @@ header .txt_logo:hover {
 .container_contact {
   width: 100%;
   height: 98vh;
-  background-color: var(--main);
+  background-color: var(--darkblue);
   border-bottom: 2px solid #3239c0;
 }
 
@@ -265,16 +266,20 @@ header .txt_logo:hover {
 	font-size: 20px;
 	margin-left: 39.25%;
 	margin-bottom: 10px;
+  color: var(--white);
+}
+
+.container_contact form #input__fullname::placeholder {
+  color: var(--white);
 }
 
 .container_contact form #input__fullname {
 	width: 60%;
 	padding: 15px;
-	background-color: #29292d;
+	background-color: var(--specialblue);
 	border-style: none;
-	color: #fff;
+	color: var(--black);
 	margin-bottom: 15px;
-	border-radius: 5px;
 }
 
 .container_contact form #label__email {
@@ -283,16 +288,20 @@ header .txt_logo:hover {
 	font-size: 20px;
 	margin-left: 39.25%;
 	margin-bottom: 15px;
+  color: var(--white);
+}
+
+.container_contact form #input__email::placeholder {
+  color: var(--white);
 }
 
 .container_contact form #input__email {
 	width: 60%;
 	padding: 15px;
-	background-color: #29292d;
+	background-color: var(--specialblue);
 	border-style: none;
 	color: #fff;
 	margin-bottom: 20px;
-	border-radius: 5px;
 }
 
 .container_contact form #label__discription {
@@ -301,25 +310,29 @@ header .txt_logo:hover {
 	font-size: 20px;
 	margin-left: 39.25%;
 	margin-bottom: 15px;
+  color: var(--white);
+}
+
+.container_contact form #input__discription::placeholder {
+  color: var(--white);
 }
 
 .container_contact form #input__discription {
 	width: 60%;
 	padding: 15px;
-	background-color: #29292d;
+	background-color: var(--specialblue);
 	border-style: none;
-	color: #fff;
+	color: var(--white);
 	margin-bottom: 15px;
 	resize: none;
-	border-radius: 5px;
 }
 
 .container_contact form #click__submit {
 	width: 5%;
-	background-color: #29292d;
+	background-color: var(--specialblue);
 	border-style: none;
 	color: #fff;
 	padding: 15px;
-	margin-right: 56%;
+	margin-right: 56.5%;
 	border-radius: 5px;
 }
