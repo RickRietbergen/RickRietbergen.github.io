@@ -25,6 +25,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 header {
   width: 100%;
   height: 65px;
@@ -203,11 +207,13 @@ footer .icon img {
 }
 
 .container_project .project .language {
+  max-width: 270px;
   font-size: 17.5px;
   margin-left: 15px;
 }
 
 .container_project .project .discription {
+  max-width: 270px;
   font-size: 17.5px;
   margin-top: 15px;
   margin-left: 15px;
@@ -337,7 +343,7 @@ footer .icon img {
 
 .container_contact {
   width: 100%;
-  height: 98vh;
+  height: 100vh;
   background-color: var(--darkblue);
   border-bottom: 2px solid #3239c0;
 }
