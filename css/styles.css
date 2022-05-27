@@ -434,18 +434,45 @@ footer .icon img {
 
 /*responsive*/
 @media screen and (max-width: 414px) {
+  header nav ul .li_header {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    background-color: var(--main);
+  }
+
+  footer .footer .icons {
+    width: 390px;
+  }
+  
+  footer .icon {
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  footer .icon img {
+    width: 35px;
+    padding: 10px;
+  }
+  
   .container_start .title {
     font-size: 35px;
   }
 
   .container_project {
-    height: 200vh;
+    height: 210vh;
   }
 
   .container_project .top {
     flex-direction: column;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 30px;
   }
 
   .container_project .down {
@@ -488,8 +515,6 @@ footer .icon img {
     padding-top: 30px;
   }
 
-
-
   .container_contact {
     height: 100vh;
   }
@@ -517,6 +542,7 @@ footer .icon img {
 
   .container_contact form #click__submit {
     width: 50%;
+    padding: 20px;
     margin-right: 0%;
   }
 }
