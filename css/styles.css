@@ -466,7 +466,7 @@ footer .icon img {
   }
 
   .container_project {
-    height: 210vh;
+    height: 220vh;
   }
 
   .container_project .top {
@@ -485,7 +485,7 @@ footer .icon img {
   }
 
   .container_about {
-    height: 100vh;
+    height: 110vh;
   }
 
   .container_about .title {
@@ -542,7 +542,7 @@ footer .icon img {
 
   .container_contact form #click__submit {
     width: 50%;
-    padding: 20px;
+    height: 50px;
     margin-right: 0%;
   }
 }
